@@ -22,3 +22,11 @@ app.listen(3000, () => {
     console.log('Server is running on port 3000');
 });
 
+
+// Yeh code Express app ka setup hai.
+// express, cookie-parser, path, aur mongoose-connection import kiya hai.
+// Static files 'public' folder se serve ho rahe hain.
+// EJS ko view engine set kiya hai.
+// Routers: owners, users, products ke liye alag-alag route files use ho rahi hain.
+// Server port 3000 pe listen kar raha hai.
+// Sab kuch sahi chal raha toh console pe message aa jayega.
