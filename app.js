@@ -22,6 +22,10 @@ app.listen(3000, () => {
     console.log('Server is running on port 3000');
 });
 
+app.get('/', (req, res) => {
+    res.send('Welcome to Blip!');
+});
+
 
 // Yeh code Express app ka setup hai.
 // express, cookie-parser, path, aur mongoose-connection import kiya hai.
